@@ -29,3 +29,25 @@ console.log(name)
 const bigArray = names.concat((foo))
 console.log(bigArray)
 console.log(names)
+
+//Object - dictionary in Python
+const person1 = {
+    //python: "name":"John"
+    name: "John",
+    age:32,
+    city: "Sydney"
+}
+console.log(person1.age)
+Object.freeze(person1)
+person1.country = 'Australia'
+console.log(person1)
+
+const person2={
+    name = 'Sally',
+    age: 45,
+    address: {
+        city: "Melbourne",
+        country: "Melbourne"
+    }}
+const attr = promt('Which attrubute?')
+console.log(person2.address[attr])
