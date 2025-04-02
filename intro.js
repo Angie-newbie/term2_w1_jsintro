@@ -43,11 +43,11 @@ person1.country = 'Australia'
 console.log(person1)
 
 const person2={
-    name = 'Sally',
+    name : 'Sally',
     age: 45,
     address: {
         city: "Melbourne",
         country: "Melbourne"
     }}
-const attr = promt('Which attrubute?')
-console.log(person2.address[attr])
+//const attr = prompt('Which attribute?')
+console.log(person1.address?.country)
